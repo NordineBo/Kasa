@@ -1,5 +1,5 @@
 import React from "react";
-import "./Banner.css";
+import "./Banner.scss";
 
 function Banner() {
   return (
@@ -9,4 +9,4 @@ function Banner() {
   )
 }
 
-export default Banner
+export default Banner;

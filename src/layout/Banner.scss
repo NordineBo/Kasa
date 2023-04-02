@@ -1,3 +1,5 @@
+@use "../scss/variables" as *;
+
 .banner {
 position: relative;
 background-position: center;
@@ -9,14 +11,13 @@ margin: auto;
 border-radius: 2rem;
 display: grid;
 place-items: center;
-color: white;
+color: $color-tertiary;
 margin-bottom: 2rem;
 max-width: 100%;
-}
-
-.banner::before {
+&::before {
     position: absolute;
     border-radius: 2rem;
     content: "";
     inset:0,
+}
 }
